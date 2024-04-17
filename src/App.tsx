@@ -1,14 +1,15 @@
 import './App.css'
 import { Footer } from './components/Footer'
-import { InternshipDetails } from './components/InternshipDetails'
-import { StudentInformations } from './components/StudentInformations'
-import { Session } from './pages/session'
+import {Header} from "./components/Header";
+import {Home} from "./pages/home";
 
 function App() {
 
   return (
-    <div>
-      <Session/>
+    <div className="flex flex-col min-h-screen">
+      <Header/>
+      <Home/>
+      <Footer/>
     </div>
 
   )

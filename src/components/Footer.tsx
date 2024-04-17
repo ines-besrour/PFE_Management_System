@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="w-screen h-auto p-16 content-center left-0 absolute bg-red-900">
+        <div className="w-screen h-auto p-16 content-center left-0 buttom-0 bg-red-900">
             <div className=" content-center text-center" style={{ color: 'white', fontSize: 'lg', fontWeight: 'bold', fontFamily: 'Poppins', lineHeight: '27px' }}>
                 <span>Téléphone : </span>
                 <span>(+216) 71 703 829<br/></span>

@@ -1,8 +1,8 @@
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+import { PhotoIcon } from '@heroicons/react/24/solid'
 
 export const StudentInformations = () => {
     return (
-        <div>
+        <div className="p-10 flex-grow">
             <p className="text-left block text-xl font-medium leading-6 text-gray-900">Informations de l'étudiant</p>
 
             <form >
@@ -55,9 +55,8 @@ export const StudentInformations = () => {
 
                     </div>
 
-                    <div className="w-1/3 h-52 flex justify-end sm:w-full">
+                    <div className="w-1/3 h-52 flex justify-center sm:w-full">
                         <div className="mt-2 flex justify-end rounded-lg border border-dashed border-gray-900/25 px-6 py-10">
-
                             <div className="text-center">
                                 <label htmlFor="cover-photo" className="block text-sm font-medium leading-6 text-gray-900">
                                     Votre photo
@@ -80,15 +79,11 @@ export const StudentInformations = () => {
                 </div>
 
                 <div className="col-span-full mt-20 flex items-center justify-end gap-x-6">
-                    <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
-                        Cancel
-                    </button>
-                    <button
-                        type="submit"
-                        className="rounded-md bg-[#B22F33] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#B22F33] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B22F33]"
-                    >
-                        Save
-                    </button>
+                    <div className="flex flex-row gap-2 w-full justify-end pr-10 items-center">
+                        <button className="w-1/12 h-10 py-2 border-[1px] border-[#B22F33] text-[#B22F33] hover:border-[#830709] hover:text-[#830709] rounded-md ">Cancel</button>
+                        <button className="w-1/12 py-2 h-10 bg-[#B22F33] hover:bg-[#830709] text-white rounded-md">Save</button>
+                    </div>
+
                 </div>
             </form >
 
