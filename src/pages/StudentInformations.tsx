@@ -4,7 +4,6 @@ export const StudentInformations = () => {
     return (
         <div className="p-10 flex-grow">
             <p className="text-left block text-xl font-medium leading-6 text-gray-900">Informations de l'étudiant</p>
-
             <form >
                 <div className="flex gap-y-8 sm:grid-cols-2">
 
