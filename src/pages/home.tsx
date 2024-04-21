@@ -2,7 +2,7 @@ export const Home = () => {
     return (
         <div className="flex flex-col gap-20 flex-grow pb-36">
             <div>
-                <img src="https://insat.rnu.tn/assets/images/insat-header.jpg" alt="insat-view" className="w-full h-[550px]"/>
+                <img src="https://insat.rnu.tn/assets/images/insat-header.jpg" alt="insat-view" className="w-full h-[450px]"/>
             </div>
             <div className="flex flex-row w-full flex-grow ">
                 <div className="rounded-r-2xl bg-[#830709] opacity-75 p-5 text-white text-center flex  justify-center items-center w-1/3 h-[250px]">
