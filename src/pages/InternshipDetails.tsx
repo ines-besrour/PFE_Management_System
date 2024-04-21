@@ -14,10 +14,10 @@ const CountryDropdown = () => {
 
 export const InternshipDetails = () => {
     return (
-      <div>
+      <div className="p-10 flex-grow">
         <p className="text-left block text-xl font-medium leading-6 text-gray-900">Details du stage</p>
         <form >
-          <div className="text-left	mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div className="text-left	mt-10 grid grid-cols-1 w-11/12 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="Entreprise" className="block text-sm font-medium leading-6 text-gray-900">Entreprise</label>
               <div className="mt-2">
